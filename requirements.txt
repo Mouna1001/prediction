@@ -6,3 +6,5 @@ nest_asyncio==1.5.1
 scikit_learn==0.24.2
 seaborn==0.11.1
 uvicorn==0.14.0
+gunicorn
+fastapi
