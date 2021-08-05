@@ -1,2 +1,2 @@
-web: uvicorn app:app --reload --workers 1 --host=127.0.0.1 --port=${PORT:-8000}
+web: uvicorn app:app --host=127.0.0.1 --port=${PORT:-8000}
 
